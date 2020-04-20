@@ -67,6 +67,17 @@
 > # 提交到远程
 > git push origin + 远程分支名
 > ```
+>使用git config --global设置用户名和邮件
 >
-> 
+> ```shell
+># 安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。
+>
+>git config --global user.name "bryan sun"
+>git config --global user.email "hitsjt@gmail.com"
+>
+># 注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+>
+># 配置好之后可以使用如下命令查看配置
+>git config -l
+
 
