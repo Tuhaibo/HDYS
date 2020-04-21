@@ -1,5 +1,3 @@
-## react    2019.8.13 今天必须把之前的react学习的整理完！
-
 https://blog.csdn.net/qq_36138652/article/details/97632390
 
 ## react16的生命周期
