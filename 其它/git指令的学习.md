@@ -31,6 +31,8 @@
 > git reset --hard e377f60e28c8b84158 (后边是版本号)
 > # 撤销特定commit
 > git revert : 撤销特定commit
+> # 合并某个分支的一个commit到另一个分支
+>git cherry-pick  0128660c08e325d410cb845616af355c0c19c6fe
 > ```
 >
 > git报错```error: src refspec dev does not match any.``` 无法push到远程分支
