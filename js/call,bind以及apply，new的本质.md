@@ -97,10 +97,10 @@
 > ```js
 > // 实现
 > function _new(fun) {
->   var obj = {}
->   obj.__proto__ = fun.prototype
->   fun.call(obj)
->   return obj
+>     var obj = {}
+>     obj.__proto__ = fun.prototype
+>     fun.call(obj)
+>     return obj
 > }
 > ```
 >
