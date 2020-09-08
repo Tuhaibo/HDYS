@@ -15,6 +15,18 @@
 > git push origin -d 远程分支名
 > ```
 >
+> ```js
+> 初始化
+> 在本地需要关联到远程仓库的项目根目录下执行
+> 
+> git init 
+> 然后关联远程仓库 [project]。你需要存在一个远程仓库，名字随意，然后执行下面的命令（去掉中括号）就可以关联到该仓库。
+> 
+> git remote add origin https://github.com/xienb/NPC.git
+> ```
+>
+> 
+>
 > 查看版本
 >
 > ```shell
@@ -32,7 +44,7 @@
 > # 撤销特定commit
 > git revert : 撤销特定commit
 > # 合并某个分支的一个commit到另一个分支
->git cherry-pick  0128660c08e325d410cb845616af355c0c19c6fe
+> git cherry-pick  0128660c08e325d410cb845616af355c0c19c6fe
 > ```
 >
 > git报错```error: src refspec dev does not match any.``` 无法push到远程分支
@@ -69,17 +81,18 @@
 > # 提交到远程
 > git push origin + 远程分支名
 > ```
->使用git config --global设置用户名和邮件
+> 使用git config --global设置用户名和邮件
 >
 > ```shell
-># 安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。
->
->git config --global user.name "bryan sun"
->git config --global user.email "hitsjt@gmail.com"
->
-># 注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
->
-># 配置好之后可以使用如下命令查看配置
->git config -l
+> # 安装好git后，在命令行或终端中使用下面的命令可以设置git自己的名字和电子邮件。这是因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。
+> 
+> git config --global user.name "bryan sun"
+> git config --global user.email "hitsjt@gmail.com"
+> 
+> # 注意git config命令的–global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+> 
+> # 配置好之后可以使用如下命令查看配置
+> git config -l
+> ```
 
 
